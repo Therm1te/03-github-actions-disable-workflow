@@ -1,0 +1,10 @@
+name: Disable Workflow
+
+on: [push]
+
+jobs:
+  print-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Message
+        run: echo "This workflow will be disabled"
